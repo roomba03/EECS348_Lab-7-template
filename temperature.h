@@ -35,4 +35,12 @@ float celsius_to_kelvin(float celsius);
  */
 float kelvin_to_celsius(float celsius);
 
+/**
+ * @brief catergorizes temperatures and issues messages accordingly
+ * 
+ * @param celsius
+ * @return float
+ */
+void categorize_temperature(float celsius);
+
 #endif /* __REPORT_H__ */
